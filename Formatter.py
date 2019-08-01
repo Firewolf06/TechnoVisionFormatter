@@ -16,4 +16,4 @@ while loop:
 outfile = open("output.txt", "w")
 outfile.write(out)
 outfile.close
-input("Press enter to exit")
+input("\n\n Press enter to exit")
