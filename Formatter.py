@@ -12,7 +12,6 @@ while loop:
     else:
         print("Keeping letter '" + letter + "'")
     out += letter
-
 outfile = open("output.txt", "w")
 outfile.write(out)
 outfile.close
