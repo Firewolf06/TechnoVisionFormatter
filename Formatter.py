@@ -3,9 +3,9 @@ loop = True
 out = ""
 while loop:
     letter = file.read(1)
-    if letter == ":":
+    if letter == ":" or letter == "\n" or letter == " ":
+        print("Removed '" + letter + "'")
         letter = ""
-        print("Removed ':'")
     elif letter == "!":
         loop = False
         print("Found file end")
@@ -16,4 +16,4 @@ while loop:
 outfile = open("output.txt", "w")
 outfile.write(out)
 outfile.close
-input("\n\n Press enter to exit")
+input("Press enter to exit")
