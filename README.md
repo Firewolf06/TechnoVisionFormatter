@@ -16,7 +16,7 @@ Run the command `python3 Formattter.py`.
 It should generate a file called output.txt.
 Remove the ! from output.txt and copy the text.
 
-Made for this YouTube video: [oof](https://www.youtube.com/watch?v=PGM-RQsg6Hg&t=301s)
+[Made for this YouTube video.](https://www.youtube.com/watch?v=PGM-RQsg6Hg&t=301s)
 
 
 
